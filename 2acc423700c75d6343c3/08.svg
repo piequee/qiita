@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   width="380" height="110"
+   viewBox="0 0 950 275"
+   xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg { background-color:white; }
+    circle { fill:black; }
+    .ball-text {
+      font-size:50px; color:black; text-anchor:middle;
+      fill:white;
+    }
+    .index-text {
+      font-size:50px; stroke:black; text-anchor:middle;
+      fill:black; stroke-width:0;
+    }
+    .indexed-box {
+      stroke:black; fill:none;
+      stroke-width:5;
+    }
+    .selected > .indexed-box { fill:#55c500; }
+    rect { stroke-width:5; stroke:black; fill:none; }
+    .box { stroke-width:5; stroke:black; fill:none; }
+  </style>
+  <g transform="translate(50, 50)">
+    <!-- 0 -->
+    <g transform="translate(0, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">0</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">0</text>
+    </g>
+    <!-- 1 -->
+    <g transform="translate(150, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">1</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">1</text>
+    </g>
+    <!-- 2 -->
+    <g transform="translate(300, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">2</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">2</text>
+    </g>
+    <!-- 3 -->
+    <g transform="translate(450, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">3</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">5</text>
+    </g>
+    <!-- 4 -->
+    <g class="selected" transform="translate(600, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">4</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">4</text>
+    </g>
+    <!-- 5 -->
+    <g class="selected" transform="translate(750, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">5</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">3</text>
+    </g>
+  </g>
+</svg>
