@@ -54,7 +54,7 @@
       <text class="index-text" x="50" y="-45">3</text>
       <rect class="box" x="-25" y="-25" width="150" height="150" />
       <circle cx="50" cy="50" r="50" />
-      <text class="ball-text" x="50" y="70">3</text>
+      <text class="ball-text" x="50" y="70">5</text>
     </g>
     <!-- 4 -->
     <g transform="translate(600, 75)">
@@ -70,7 +70,7 @@
       <text class="index-text" x="50" y="-45">5</text>
       <rect class="box" x="-25" y="-25" width="150" height="150" />
       <circle cx="50" cy="50" r="50" />
-      <text class="ball-text" x="50" y="70">5</text>
+      <text class="ball-text" x="50" y="70">3</text>
     </g>
   </g>
 </svg>
