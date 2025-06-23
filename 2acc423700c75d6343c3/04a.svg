@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   width="380" height="220"
+   viewBox="0 0 950 550"
+   xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg { background-color:white; }
+    circle { fill:black; }
+    .ball-text {
+      font-size:50px; color:black; text-anchor:middle;
+      fill:white;
+    }
+    .index-text {
+      font-size:50px; stroke:black; text-anchor:middle;
+      fill:black; stroke-width:0;
+    }
+    .indexed-box {
+      stroke:black; fill:none;
+      stroke-width:5;
+    }
+    rect { storoke-width:5; stroke:black; fill:none; }
+    .box { stroke-width:5; stroke:black; fill:none; }
+    .placeholder {
+      stroke:gray; stroke-width:5; stroke-dasharray:10,10;
+      fill:none;
+    }
+    .arrow > line { stroke:black; stroke-width:5; }
+    .arrow > path { stroke:black; stroke-width:5; }
+    .arrow > path.curve { fill:none; }
+  </style>
+  <g transform="translate(50, 50)">
+    <!-- 0 -->
+    <g transform="translate(0, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">0</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">0</text>
+    </g>
+    <!-- 1 -->
+    <g transform="translate(150, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">1</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">1</text>
+    </g>
+    <!-- 2 -->
+    <g transform="translate(300, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">2</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">2</text>
+    </g>
+    <!-- 3 -->
+    <g transform="translate(450, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">3</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">4</text>
+    </g>
+    <g class="arrow" transform="translate(525, 235)">
+      <path transform="rotate(-35)" class="head" d="M 0,50 15,0 30,50 Z" />
+    </g>
+    <g transform="translate(450, 375)">
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">3</text>
+    </g>
+    <!-- 4 -->
+    <g transform="translate(600, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">4</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle cx="50" cy="50" r="50" />
+      <text class="ball-text" x="50" y="70">5</text>
+    </g>
+    <g class="arrow" transform="translate(600, 225)">
+      <path class="curve" d="m -50,25 c 0,0 50,80 80,-25" />
+    </g>
+    <g class="arrow" transform="translate(675, 235)">
+      <path transform="rotate(-35)" class="head" d="M 0,50 15,0 30,50 Z" />
+    </g>
+    <!-- 5 -->
+    <g transform="translate(750, 75)">
+      <rect class="indexed-box" x="-25" y="-100" width="150" height="75" />
+      <text class="index-text" x="50" y="-45">5</text>
+      <rect class="box" x="-25" y="-25" width="150" height="150" />
+      <circle class="placeholder" cx="47.5" cy="47.5" r="47.5" />
+    </g>
+    <g class="arrow" transform="translate(750, 225)">
+      <path class="curve" d="m -50,25 c 0,0 50,80 80,-25" />
+    </g>
+  </g>
+</svg>
